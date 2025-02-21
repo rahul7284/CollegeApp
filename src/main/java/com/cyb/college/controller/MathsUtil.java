@@ -14,6 +14,9 @@ public class MathsUtil {
         mutiply();
         for (Integer nums : ops) {
             System.out.println("First Commit");
+            System.out.println("Sec Commit");
+            System.out.println("Third Commit");
+            System.out.println("Fourth Commit");
             
         }
     }
