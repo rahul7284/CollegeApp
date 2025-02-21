@@ -3,6 +3,8 @@ package com.cyb.college.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.xmlbeans.impl.common.SystemCache;
+
 public class MathsUtil {
     static List<Integer> ops = new ArrayList<>();
     
@@ -11,7 +13,8 @@ public class MathsUtil {
         substract();
         mutiply();
         for (Integer nums : ops) {
-            System.out.println(nums);
+            System.out.println("First Commit");
+            
         }
     }
     
